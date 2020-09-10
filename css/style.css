@@ -129,6 +129,12 @@ div.card {
 .lqd-column {
   margin-top: 20px;
 }
+.logo-default {
+  width: 60%;
+}
 
-@media (min-width: 340px) {
+@media (max-width: 340px) {
+  .logo-default {
+    width: 200px;
+  }
 }
