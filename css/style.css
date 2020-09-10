@@ -10,10 +10,9 @@
 
 .showcase {
   width: 90%;
-  position: absolute;
-  top: 80px;
+  margin-top: 100px;
+  padding: 55px;
   margin-left: 50px;
-  padding: 50px;
   background-color: rgba(212, 228, 239, 1);
   background: @include filter-gradient(#d4e4ef, #86aecc, horizontal);
   background: @include
@@ -51,7 +50,6 @@
   transform: translate(-50%, -50%);
 }
 
-
 div.card {
   background-color: #fff;
   cursor: pointer;
@@ -74,10 +72,10 @@ div.card {
   padding: 10px;
   height: 100%;
 }
-.front {-webkit-box-shadow: 10px 10px 34px 2px rgba(147,173,196,1);
-  -moz-box-shadow: 10px 10px 34px 2px rgba(147,173,196,1);
-  box-shadow: 10px 10px 34px 2px rgba(147,173,196,1);
-  Copy Text
+.front {
+  -webkit-box-shadow: 10px 10px 34px 2px rgba(147, 173, 196, 1);
+  -moz-box-shadow: 10px 10px 34px 2px rgba(147, 173, 196, 1);
+  box-shadow: 10px 10px 34px 2px rgba(147, 173, 196, 1);
   margin: 10px;
   height: 80%;
   transform: perspective(600px) rotateY(0deg);
@@ -125,3 +123,12 @@ div.card {
   transform: perspective(600px) rotateY(0deg);
 }
 
+.main-footer {
+  margin-top: 20px;
+}
+.lqd-column {
+  margin-top: 20px;
+}
+
+@media (min-width: 340px) {
+}
