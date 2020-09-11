@@ -26,8 +26,8 @@ body {
 .showcase {
   width: 90%;
   margin-top: 100px;
-  padding: 55px;
-  margin-left: 50px;
+  padding: 45px;
+  margin-left: 60px;
   background-color: rgba(212, 228, 239, 1);
   background: @include filter-gradient(#d4e4ef, #86aecc, horizontal);
   background: @include
@@ -40,11 +40,24 @@ body {
       )
     );
 }
-
+.maincss h2 {
+  background-color: #333;
+  color: azure;
+  text-align: center;
+  padding: 10px;
+}
 .carousel {
   -webkit-box-shadow: 20px 21px 72px 0px rgba(63, 152, 158, 1);
   -moz-box-shadow: 20px 21px 72px 0px rgba(63, 152, 158, 1);
   box-shadow: 20px 21px 72px 0px rgba(63, 152, 158, 1);
+}
+
+.maincss {
+  width: 50%;
+}
+.maincss p {
+  font-size: 24px;
+  padding: 10px;
 }
 /* card css*/
 .product-items {
