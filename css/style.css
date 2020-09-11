@@ -172,20 +172,21 @@ div.card {
 @media only screen and (max-width: 767px) {
   body {
     width: 100wh;
-    height: 100vh;
+    height: auto;
     margin: 0;
   }
   .logo-default {
     width: 200px;
   }
   .main-footer {
+    margin-left: 10px;
     width: 100%;
     min-width: 60%;
   }
   .showcase {
     padding: 20px;
     display: block;
-    width: 60%;
+    width: 100%%;
   }
   .carousualcss {
     display: grid;
@@ -193,7 +194,7 @@ div.card {
   }
   .product-items {
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 100px;
   }
 }
 
