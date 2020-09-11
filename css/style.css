@@ -218,10 +218,10 @@ div.card {
 .front {
   margin-left : 10px;
   height: 100%;
-
+}
 .tweetercss {
-  height: 100%;
-  margin-top: 20px;
+  height: 60%;
+  margin-top: 100px;
   padding: 10px;
 }
 .about {
