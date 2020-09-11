@@ -125,16 +125,44 @@ div.card {
 
 .main-footer {
   margin-top: 20px;
+  width: 100%;
+}
+.logo-default {
+  width: 200px;
 }
 .lqd-column {
   margin-top: 20px;
 }
-.logo-default {
-  width: 60%;
-}
-
 @media (max-width: 340px) {
+  body {
+    width: 100%;
+    display: grid;
+  }
   .logo-default {
     width: 200px;
   }
+  .main-footer {
+    width: 50%;
+    min-width: 30%;
+  }
+}
+
+.tweeter {
+  margin-top: 20px;
+  padding: 10px;
+}
+.about {
+  outline: 7px solid rgba(28, 110, 164, 0.17);
+  outline-offset: 13px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.about p {
+  margin-top: 50px;
+  padding: 20px;
+  -webkit-box-shadow: 10px 10px 21px 0px rgba(189, 199, 199, 1);
+  -moz-box-shadow: 10px 10px 21px 0px rgba(189, 199, 199, 1);
+  box-shadow: 10px 10px 21px 0px rgba(189, 199, 199, 1);
 }
