@@ -85,6 +85,11 @@ body {
   left: 40%;
   transform: translate(-50%, -50%);
 }
+.picturecss{
+  background-position: center;
+
+  background-size: cover;
+}
 
 div.card {
   rgb(232, 214, 222);
@@ -123,7 +128,7 @@ div.card {
 }
 .back-content {
   background-color: cadetblue;
-  color: #fff;
+  color: #2F4F4F		;
   margin-left: 20px;
   padding: 10px;
   width: 90%;
@@ -131,10 +136,21 @@ div.card {
   left: 150px;
   top: 90px;
 }
+.back-content h2{
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.back-content span{
+  font-size: 22px;
+  text-justify: auto;
+
+}
 .sm {
   position: absolute;
   left: 20px;
-  top: 200px;
+  top: 300px;
   bottom: 30px;
   color: #fff;
 }
