@@ -98,6 +98,7 @@ div.card {
     rgba(232, 214, 222, 1) 0%,
     rgba(194, 182, 201, 1) 0%
   );
+  margin-left: 20px;
   cursor: pointer;
   width: 298px;
   height: 340px;
@@ -118,8 +119,8 @@ div.card {
   height: 100%;
 }
 .front {
-  margin: 0px;
-  height: 80%;
+  margin-left : 10px;
+  height: 100%;
   transform: perspective(600px) rotateY(0deg);
 }
 .back {
@@ -214,6 +215,9 @@ div.card {
     margin-top: 100px;
   }
 }
+.front {
+  margin-left : 10px;
+  height: 100%;
 
 .tweetercss {
   height: 100%;
