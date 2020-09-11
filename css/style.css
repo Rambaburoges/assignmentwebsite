@@ -46,14 +46,19 @@ body {
   text-align: center;
   padding: 10px;
 }
+/*
 .carousel {
   -webkit-box-shadow: 20px 21px 72px 0px rgba(63, 152, 158, 1);
   -moz-box-shadow: 20px 21px 72px 0px rgba(63, 152, 158, 1);
   box-shadow: 20px 21px 72px 0px rgba(63, 152, 158, 1);
 }
-
+*/
 .maincss {
-  width: 50%;
+  padding: 10px;
+}
+.carousualcss {
+  padding: 10px;
+  display: inline-flex;
 }
 .maincss p {
   font-size: 24px;
@@ -61,12 +66,10 @@ body {
 }
 /* card css*/
 .product-items {
-  display: block;
-  width: 1245px;
-  position: absolute;
-  top: 600px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 60px;
   margin-bottom: 20px;
-  left: 50px;
   background: rgb(232, 214, 222);
   background: radial-gradient(
     circle,
@@ -166,7 +169,7 @@ div.card {
 .lqd-column {
   margin-top: 20px;
 }
-@media (max-width: 340px) {
+@media only screen and (max-width: 767px) {
   body {
     width: 100%;
     display: grid;
@@ -175,8 +178,21 @@ div.card {
     width: 200px;
   }
   .main-footer {
-    width: 50%;
-    min-width: 30%;
+    width: 100%;
+    min-width: 60%;
+  }
+  .showcase {
+    padding: 20px;
+    display: block;
+    width: 60%;
+  }
+  .carousualcss {
+    display: grid;
+    width: auto;
+  }
+  .product-items {
+    margin-left: 50px;
+    margin-top: 50px;
   }
 }
 
