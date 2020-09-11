@@ -171,8 +171,9 @@ div.card {
 }
 @media only screen and (max-width: 767px) {
   body {
-    width: 100%;
-    display: grid;
+    width: 100wh;
+    height: 100vh;
+    margin: 0;
   }
   .logo-default {
     width: 200px;
